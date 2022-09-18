@@ -3,15 +3,15 @@
     padding: 0;
     margin: 0;
 }
-
+/* This is body color that changes more than half color layout from the backgorund*/
 body {
-    background-color: #d9dcd6;
+    background-color: #d9d9d9;
 }
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color: #2589bd;
     color: #ffffff;
 }
 
@@ -40,8 +40,8 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
-a {
+/* Anything thats within A or P , such as text or paragraph can be all changed in one section without creating multiple seperate sections of each div. It would make things easier having everything fall into one category*/
+a{
     color: #ffffff;
     text-decoration: none;
 }
@@ -74,7 +74,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*On the bottom right changest the layout and creating shapes also aligning*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -133,7 +133,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*The bottom left images that are Horizontal are sections you can customize each of these sections have they own category  */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
